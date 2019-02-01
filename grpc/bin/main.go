@@ -2,13 +2,14 @@ package main
 
 import (
 	"fmt"
+	"github.com/gofunct/gofs"
+	"github.com/gofunct/gofs/assetfs"
 	"github.com/gofunct/stencil"
-	"github.com/gofunct/stencil/pkg/filter"
 	"github.com/mgutz/str"
 )
 
-func tasks(p *stencil.Project) {
-	p.Func("test", nil, func(c *stencil.Context) {
+func tasks(p *gofs.Project) {
+	p.Func("test", nil, func(c *gofs.Context) {
 		c.Run("go test")
 	})
 
@@ -33,9 +34,9 @@ func tasks(p *stencil.Project) {
 	p.Func("readme", stencil.S{"install"}, func(c *stencil.Context) {
 		c.Run("godocdown -o README.md")
 		c.Pipe(
-			filter.Load("./README.md"),
-			filter.Str(str.ReplaceF("--", "\n[stencil](https://github.com/stencil.com)\n", 1)),
-			filter.Write(),
+			assetfs.Load("./README.md"),
+			gofs.Str(str.ReplaceF("--", "\n[stencil](https://github.com/stencil.com)\n", 1)),
+			gofs.Write(),
 		)
 	})
 

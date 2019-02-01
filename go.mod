@@ -5,6 +5,7 @@ require (
 	github.com/aws/aws-sdk-go v1.16.12
 	github.com/go-sql-driver/mysql v1.4.1
 	github.com/gofunct/common v0.0.0-20190131174352-fd058c7fbf22
+	github.com/gofunct/gofs v0.0.0-20190201220340-0f19aec9eba2 // indirect
 	github.com/gofunct/stencil v0.0.0-20190201044706-22be34c54e3d
 	github.com/google/go-cmp v0.2.0
 	github.com/google/wire v0.2.1

@@ -59,6 +59,9 @@ type Context struct {
 }
 
 func (c *Context) Env() Env {
+	if c.Environment.String() == "" {
+
+	}
 	return c.Environment
 }
 

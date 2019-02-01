@@ -81,6 +81,18 @@ github.com/gofunct/common v0.0.0-20190131174352-fd058c7fbf22 h1:jVHR4Xrq4xIJ2+QQ
 github.com/gofunct/common v0.0.0-20190131174352-fd058c7fbf22/go.mod h1:nHYjI94la38LbMyviEg6MGErHtS7xVJh6LVM2kc0Qog=
 github.com/gofunct/gofs v0.0.0-20190201013541-e55c00d07c4a h1:7kt2plWIm0O+xM3or9u2VN7aPLYXVM4OdFrtY6V8R6U=
 github.com/gofunct/gofs v0.0.0-20190201013541-e55c00d07c4a/go.mod h1:SwqZUCCDs/cTaswlWvEsBJ/rf5N7UTAsmJ/cLJKDudg=
+github.com/gofunct/gofs v0.0.0-20190201215005-326705e67747 h1:u1Rc8d8i4Ckc/el9C8cMitdCrzSHN1xDtED3r44BuL4=
+github.com/gofunct/gofs v0.0.0-20190201215005-326705e67747/go.mod h1:SwqZUCCDs/cTaswlWvEsBJ/rf5N7UTAsmJ/cLJKDudg=
+github.com/gofunct/gofs v0.0.0-20190201215709-9c03aeb0ffb6 h1:fvKNgFXFAE9sss2rd5Jzsl0vSBUxZhqgJfD3ICAiD4s=
+github.com/gofunct/gofs v0.0.0-20190201215709-9c03aeb0ffb6/go.mod h1:AKueBcYI+rC8kl6vSPo5/VQ12DD7R9VpLpa6/MBv2jk=
+github.com/gofunct/gofs v0.0.0-20190201215816-c363c5a4b7aa h1:O6of++9+PgWstvRlrXn80xeCuzrdtTwY/OMc0MP5KKw=
+github.com/gofunct/gofs v0.0.0-20190201215816-c363c5a4b7aa/go.mod h1:AKueBcYI+rC8kl6vSPo5/VQ12DD7R9VpLpa6/MBv2jk=
+github.com/gofunct/gofs v0.0.0-20190201220011-70ca4860a4fc h1:sH5Jsoi6LOAxJMY3NWUgFLcx3DauwL231pHXg3CzlSQ=
+github.com/gofunct/gofs v0.0.0-20190201220011-70ca4860a4fc/go.mod h1:AKueBcYI+rC8kl6vSPo5/VQ12DD7R9VpLpa6/MBv2jk=
+github.com/gofunct/gofs v0.0.0-20190201220243-158d9bdc9ba3 h1:paEIWB55MqayDJHaxOMrFRfYi5SiaXmiSDShVA2mA4k=
+github.com/gofunct/gofs v0.0.0-20190201220243-158d9bdc9ba3/go.mod h1:AKueBcYI+rC8kl6vSPo5/VQ12DD7R9VpLpa6/MBv2jk=
+github.com/gofunct/gofs v0.0.0-20190201220340-0f19aec9eba2 h1:7pGSEg+1DbbBxqsf3cl798oUKjew4uBOj9wWrYZs/0M=
+github.com/gofunct/gofs v0.0.0-20190201220340-0f19aec9eba2/go.mod h1:AKueBcYI+rC8kl6vSPo5/VQ12DD7R9VpLpa6/MBv2jk=
 github.com/gofunct/mamba v0.0.0-20190129225843-93fc15e35cf6/go.mod h1:yu7Q2CWOhMtq/TBooTLfeA6V5Fqtn1OBcaiKTuGfv6A=
 github.com/gofunct/stencil v0.0.0-20190201044706-22be34c54e3d h1:bUBecIHyNljtqR2jHz35BM0ZxGBhrQ7tznzelOn6n0g=
 github.com/gofunct/stencil v0.0.0-20190201044706-22be34c54e3d/go.mod h1:u0omaMOu8i4k1V+AGXuqvV7LE046jArQeNsC49CVxBE=
@@ -357,6 +369,7 @@ gopkg.in/mattn/go-isatty.v0 v0.0.4/go.mod h1:wt691ab7g0X4ilKZNmMII3egK0bTxl37fEn
 gopkg.in/mattn/go-runewidth.v0 v0.0.4/go.mod h1:BmXejnxvhwdaATwiJbB1vZ2dtXkQKZGu9yLFCZb4msQ=
 gopkg.in/pipe.v2 v2.0.0-20140414041502-3c2ca4d52544/go.mod h1:UhTeH/yXCK/KY7TX24mqPkaQ7gZeqmWd/8SSS8B3aHw=
 gopkg.in/yaml.v2 v2.2.1/go.mod h1:hI93XBmqTisBFMUTm0b8Fm+jr3Dg1NNxqwp+5A1VGuI=
+gopkg.in/yaml.v2 v2.2.2 h1:ZCJp+EgiOT7lHqUV2J862kp8Qj64Jo6az82+3Td9dZw=
 gopkg.in/yaml.v2 v2.2.2/go.mod h1:hI93XBmqTisBFMUTm0b8Fm+jr3Dg1NNxqwp+5A1VGuI=
 gotest.tools v2.2.0+incompatible/go.mod h1:DsYFclhRJ6vuDpmuTbkuFWG+y2sxOXAzmJt81HFBacw=
 honnef.co/go/tools v0.0.0-20180728063816-88497007e858/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
