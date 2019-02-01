@@ -1,11 +1,11 @@
-package transport
+package gotransport
 
 import (
-	"github.com/gofunct/common/pkg/transport/api"
-	"github.com/gofunct/common/pkg/transport/engine"
+	"github.com/gofunct/gotransport/grpc/api"
+	"github.com/gofunct/gotransport/grpc/engine"
 )
 
-func Serve(servers ...api.Server) error {
+func ServeGrpc(servers ...api.Server) error {
 	s := engine.New(
 		engine.WithDefaultLogger(),
 		engine.WithServers(
