@@ -2,8 +2,8 @@ package engine
 
 import (
 	"context"
-	"github.com/gofunct/common/pkg/transport/api"
-	"github.com/gofunct/common/pkg/transport/config"
+	"github.com/gofunct/gotransport/grpc/api"
+	"github.com/gofunct/gotransport/grpc/config"
 	"github.com/pkg/errors"
 	"github.com/soheilhy/cmux"
 	"golang.org/x/sync/errgroup"

@@ -1,14 +1,13 @@
 package engine
 
 import (
-	"github.com/gofunct/common/pkg/transport/config"
-	"net"
-
-	"github.com/gofunct/common/pkg/transport/api"
+	"github.com/gofunct/gotransport/grpc/api"
+	"github.com/gofunct/gotransport/grpc/config"
 	"github.com/pkg/errors"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/grpclog"
 	"google.golang.org/grpc/reflection"
+	"net"
 )
 
 // GrpcServer wraps grpc.Server setup process.

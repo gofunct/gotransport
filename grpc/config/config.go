@@ -2,8 +2,8 @@ package config
 
 import (
 	"crypto/tls"
-	"github.com/gofunct/common/pkg/transport/api"
-	"github.com/gofunct/common/pkg/transport/middleware"
+	"github.com/gofunct/gotransport/grpc/api"
+	"github.com/gofunct/gotransport/grpc/middleware"
 	"net"
 	"net/http"
 	"os"
